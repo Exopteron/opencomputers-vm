@@ -1,0 +1,13 @@
+[package]
+name = "opencomputersvm"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rlua = "0.17.1"
+anyhow = { version = "1.0.43", features = ["backtrace"] }
+log = "0.4.1"
+env_logger = "0.9.0"
+chrono = "0.4.1"
